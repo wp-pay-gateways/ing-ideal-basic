@@ -1,6 +1,6 @@
 <?php
 
-class Pronamic_WP_Pay_Gateways_ING_IDealBasic_IDealBasic_Integration {
+class Pronamic_WP_Pay_Gateways_ING_IDealBasic_Integration {
 	public function __construct() {
 		$this->id       = 'ing-ideal-basic';
 		$this->name     = 'ING - iDEAL Basic';
