@@ -32,7 +32,7 @@ cache:
     - $HOME/.composer/cache
 
 before_script:
-  - bash bin/travis-before_script.sh
+  - bash bin/travis-before_script
 
 script:
-  - bash bin/travis-script.sh
+  - bash bin/travis-script

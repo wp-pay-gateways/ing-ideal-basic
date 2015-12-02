@@ -35,17 +35,19 @@
 		"wp-pay-gateways/ideal-basic": "dev-develop"
 	},
 	"require-dev": {
-		"squizlabs/php_codesniffer": "^2.2.0",
-		"wp-coding-standards/wpcs": "~0.6",
 		"phpmd/phpmd": "^2.2.3",
-		"satooshi/php-coveralls": "dev-master"
+		"satooshi/php-coveralls": "dev-master",
+		"squizlabs/php_codesniffer": "^2.2.0",
+		"wp-coding-standards/wpcs": "0.8.0"
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"xrstf\\Composer52\\Generator::onPostInstallCmd"
+			"xrstf\\Composer52\\Generator::onPostInstallCmd",
+			"bin/install-wpcs"
 		],
 		"post-update-cmd": [
-			"xrstf\\Composer52\\Generator::onPostInstallCmd"
+			"xrstf\\Composer52\\Generator::onPostInstallCmd",
+			"bin/install-wpcs"
 		],
 		"post-autoload-dump": [
 			"xrstf\\Composer52\\Generator::onPostInstallCmd"
