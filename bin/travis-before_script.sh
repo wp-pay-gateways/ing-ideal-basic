@@ -6,7 +6,7 @@ phpenv local 5.6
 
 composer self-update
 
-if [[ "$COVERAGE" == "1" ]]; then
+if [[ '1' == $COVERAGE ]]; then
 	composer install
 else
 	composer install --no-dev

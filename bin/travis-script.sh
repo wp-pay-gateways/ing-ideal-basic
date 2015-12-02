@@ -4,7 +4,7 @@ set -ev
 
 phpunit
 
-if [[ "$COVERAGE" == "1" ]]
+if [[ '1' == $COVERAGE ]]; then
 	php ../vendor/bin/coveralls
 fi
 
