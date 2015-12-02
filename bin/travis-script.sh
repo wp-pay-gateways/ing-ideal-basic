@@ -7,7 +7,7 @@ phpunit
 
 # Coveralls
 if [[ '1' == $COVERAGE ]]; then
-	php ../vendor/bin/coveralls
+	php vendor/bin/coveralls
 fi
 
 # Grunt
