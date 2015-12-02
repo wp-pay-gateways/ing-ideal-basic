@@ -2,6 +2,8 @@
 
 set -ev
 
+phpenv local 5.6
+
 composer self-update
 
 if [[ "$COVERAGE" == "1" ]]; then
@@ -9,6 +11,8 @@ if [[ "$COVERAGE" == "1" ]]; then
 else
 	composer install --no-dev
 fi
+
+phpenv local --unset
 
 wget https://raw.githubusercontent.com/wp-cli/sample-plugin/master/bin/install-wp-tests.sh
 
