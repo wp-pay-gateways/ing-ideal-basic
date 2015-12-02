@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b30a52b4103101bbbf09b0665b89b0cf",
-    "content-hash": "49f1cd794d523eae4b995c861087ecd0",
+    "hash": "8343fc9d4d152b55c579517fa7bece2c",
+    "content-hash": "a04673d0e86fc2e271cb76a7b973a8c9",
     "packages": [
         {
             "name": "wp-pay-gateways/common",
@@ -70,12 +70,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-pay-gateways/ideal.git",
-                "reference": "53b7a5f9e40ad1e1b76ccc5ac89516bebcf01fe0"
+                "reference": "aa2611ac84b14a0f9ecb1e3e638cdb53713eabf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-pay-gateways/ideal/zipball/53b7a5f9e40ad1e1b76ccc5ac89516bebcf01fe0",
-                "reference": "53b7a5f9e40ad1e1b76ccc5ac89516bebcf01fe0",
+                "url": "https://api.github.com/repos/wp-pay-gateways/ideal/zipball/aa2611ac84b14a0f9ecb1e3e638cdb53713eabf2",
+                "reference": "aa2611ac84b14a0f9ecb1e3e638cdb53713eabf2",
                 "shasum": ""
             },
             "require": {
@@ -101,7 +101,7 @@
                 "wordpress",
                 "wp"
             ],
-            "time": "2015-12-02 07:37:04"
+            "time": "2015-12-02 08:24:42"
         },
         {
             "name": "wp-pay-gateways/ideal-basic",
@@ -109,12 +109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-pay-gateways/ideal-basic.git",
-                "reference": "22c57250b240efc4a5b4c4fdfeb50ce3893f79f2"
+                "reference": "1d3e02ac1fb2c7d20cd7f41f4159523a1e96c712"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-pay-gateways/ideal-basic/zipball/22c57250b240efc4a5b4c4fdfeb50ce3893f79f2",
-                "reference": "22c57250b240efc4a5b4c4fdfeb50ce3893f79f2",
+                "url": "https://api.github.com/repos/wp-pay-gateways/ideal-basic/zipball/1d3e02ac1fb2c7d20cd7f41f4159523a1e96c712",
+                "reference": "1d3e02ac1fb2c7d20cd7f41f4159523a1e96c712",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
                 "wordpress",
                 "wp"
             ],
-            "time": "2015-12-02 07:44:10"
+            "time": "2015-12-02 08:35:38"
         },
         {
             "name": "wp-pay/core",
@@ -215,6 +215,38 @@
                 "wp"
             ],
             "time": "2015-11-12 13:02:52"
+        },
+        {
+            "name": "xrstf/composer-php52",
+            "version": "v1.0.19",
+            "source": {
+                "type": "hg",
+                "url": "https://bitbucket.org/xrstf/composer-php52",
+                "reference": "9a4a9c46d0347b39bf9159815301dc66fc25324e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/xrstf/composer-php52/get/9a4a9c46d0347b39bf9159815301dc66fc25324e.zip",
+                "reference": "9a4a9c46d0347b39bf9159815301dc66fc25324e",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-default": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "xrstf\\Composer52": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "homepage": "http://www.xrstf.de/",
+            "time": "2015-10-01 14:11:58"
         }
     ],
     "packages-dev": [
