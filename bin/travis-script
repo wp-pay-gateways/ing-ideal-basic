@@ -5,11 +5,6 @@ set -ev
 # PHPUnit
 phpunit
 
-# Coveralls
-if [[ '1' == $COVERAGE ]]; then
-	php vendor/bin/coveralls
-fi
-
 # Grunt
 if [[ '1' == $GRUNT ]]; then
 	vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs

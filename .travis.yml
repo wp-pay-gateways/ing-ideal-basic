@@ -35,4 +35,4 @@ script:
   - bash bin/travis-script
 
 after_success:
-  - travis_retry php vendor/bin/coveralls
+  - bash bin/travis-after_success
