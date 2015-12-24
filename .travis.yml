@@ -33,3 +33,6 @@ before_script:
 
 script:
   - bash bin/travis-script
+
+after_success:
+  - travis_retry php vendor/bin/coveralls
